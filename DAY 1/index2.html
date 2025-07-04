@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns:auto auto auto auto;
+            grid-template-rows:auto auto auto auto;
+            gap: 30px;
+            
+        }
+        .grid span {
+            background-color: rgb(240, 161, 26);
+            border: 1px solid rgb(192, 62, 62);
+            text-align: center;
+            height: 150px;
+            width: 150px;
+        }
+        .c_span{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <span class="c_span">Navbar</span>
+        <span class="c_span">Sidebar</span>
+        <span></span>
+        <span>4</span>
+        <span>5</span>
+        <span>6</span>
+        <span>7</span>
+        <span>8</span>
+    </div>
+</body>
+</html>

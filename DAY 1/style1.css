@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.grid span {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
